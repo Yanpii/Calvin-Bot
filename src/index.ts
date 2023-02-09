@@ -1,5 +1,10 @@
-import {config} from "dotenv";
-config();
-import express, { Express } from "express";
-import { Client } from "discord.js";
+/**
+ * Discord Worker: Calvin
+ * 
+ * @author Juan González Alegría
+ * @version 1.0
+ */
 
+import worker from "./app";
+
+worker.main();
