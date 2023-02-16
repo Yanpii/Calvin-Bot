@@ -7,7 +7,7 @@ import { Message, TextChannel, Client, GatewayIntentBits, Events, MessageReactio
         const channel: TextChannel = reaction.message.channel as TextChannel;
   
         switch (channel.name) {
-          case 'general-2':
+          case 'canal-tarea':
             
           try {
             await reaction.users.fetch();
