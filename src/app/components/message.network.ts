@@ -6,7 +6,7 @@ import responseModule from "../modules/response.module";
 
 const router: Router = express.Router();
 
-router.get('/search', async (req: Request, res: Response) => {
+router.get('/search/:startDate/:endDate', async (req: Request, res: Response) => {
   const startDate = req.params['startDate'];
   const endDate = req.params['endDate'];
   
