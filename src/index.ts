@@ -1,5 +1,5 @@
 /**
- * Discord Worker: Calvin
+ * Discord Worker: Calvin-Bot
  * 
  * @author Juan González Alegría
  * @version 1.0
