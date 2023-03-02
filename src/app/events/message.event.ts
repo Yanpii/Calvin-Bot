@@ -5,6 +5,13 @@ import { addMessage } from "../components/message.repository";
 export default async function messageHandler(message: Message){
  
     const channel: TextChannel = message.channel as TextChannel;
+
+    if(message.content == "/comando"){
+      
+      const response = await fetch(`https://api.github.com/repos/Yanpii/Calvin-Bot/pulls`);
+      const data = await response.json();
+      console.log(data);
+    }
   
     switch (channel.name) {
       case 'canal-tarea':
